@@ -50,7 +50,7 @@ void c2fun() //function for first question
     cin >> varB; // prompt user to input value 1 and assign to varB
     cout << "Number 2: ";
     cin >> varC; // prompt user to input value 2 and assign to varC
-    varA = varB + varC; // add varB and varC and assign it to varA
+    varA = varB * varC; // add varB and varC and assign it to varA
     cout << varA << endl; //output varA
 
 }
@@ -62,6 +62,6 @@ int varZ {0};
 int result;
     cout << "Enter three integers (with spaces in between each) "; //prompt user for input with correct syntax
     cin >> varX >> varY >> varZ; // have users input all three
-    result = varX + varY + varZ; //calculate result
+    result = varX * varY * varZ; //calculate result
     cout << "\nThe product is " << result << endl;
 }
